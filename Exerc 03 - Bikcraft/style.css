@@ -1,0 +1,129 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.menu-item {
+  background-color: white;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+.detalhe {
+  color: red;
+  font-size: 64px;
+  font-weight: lighter;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 25%;
+  left: 50%;
+}
+/* Flexbox Menu  */
+
+.grid {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+}
+
+.grid-conteudo {
+  align-items: flex-end;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  text-align: right;
+}
+
+.grid-paragrafo {
+  align-items: center;
+  font-size: 20px;
+}
+
+.grid-botao {
+  background-color: #ee2211;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  font-weight: medium;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.imagem-bicicleta {
+  width: 500px;
+  height: 340px;
+}
+
+.grid-vantagens {
+  align-items: center;
+  color: #c6c6c6;
+  display: flex;
+  font-size: 32px;
+  margin-right: 80px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.grid-itens {
+  display: grid;
+  background-color: white;
+  padding: 40px;
+}
+
+.grid-item {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 20px;
+  gap: 10px;
+  justify-content: flex-start;
+  max-width: 30ch;
+}
+
+.grid-item-paragrafo {
+  margin-left: 28px;
+  margin-top: -10px;
+}
+
+.grid-item-titulo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rodape {
+  background-color: white;
+  font-size: 20px;
+  margin-top: 60px;
+  padding: 40px;
+  position: relative;
+  bottom: -10px;
+  left: -10px;
+  text-align: center;
+  width: 100%;
+}
